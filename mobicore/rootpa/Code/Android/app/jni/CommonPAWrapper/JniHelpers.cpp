@@ -30,7 +30,6 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 #include "JniHelpers.h"
 #include "rootpaErrors.h"
-#include <string.h>
 
 JniHelpers::JniHelpers(JNIEnv* envP):broken_(false),
                                      envP_(envP),
